@@ -1,0 +1,24 @@
+{
+  "name": "function-profiler",
+  "description": "Profile a function",
+  "keywords": [
+    "profile",
+    "browser"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "function-profiler.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:paulmelnikow/function-profiler.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-plugin-pnm": "^1.0.0"
+  }
+}
