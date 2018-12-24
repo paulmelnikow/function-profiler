@@ -18,7 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.16.1",
+    "eslint": "^5.11.0",
     "eslint-plugin-pnm": "^1.0.0"
   }
 }
