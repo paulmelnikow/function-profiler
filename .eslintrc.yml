@@ -29,4 +29,4 @@ rules:
   promise/prefer-await-to-then: 'error'
 
   # function-profiler additions.
-  no-console: "off"
+  no-console: 'off'
