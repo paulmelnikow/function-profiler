@@ -23,10 +23,6 @@ jobs:
           key: v1-dependencies-{{ checksum "package-lock.json" }}
 
       - run:
-          name: Run tests
-          command: npm run test:js
-
-      - run:
           name: Check lint
           command: npm run lint
           when: always
