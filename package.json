@@ -10,13 +10,11 @@
   "main": "function-profiler.js",
   "scripts": {
     "lint": "eslint \"**/*.js\"",
-    "test": "npm run lint"
+    "prettier": "prettier --write \"**/*.@(js|md|yml)\"",
+    "prettier-check": "prettier-check \"**/*.@(js|md|yml)\"",
+    "test": "npm run lint && npm run prettier-check"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:paulmelnikow/function-profiler.git"
-  },
-  "dependencies": {},
+  "repository": "paulmelnikow/function-profiler",
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
