@@ -9,7 +9,7 @@
   "license": "MIT",
   "main": "function-profiler.js",
   "scripts": {
-    "lint": "eslint '**/*.js'",
+    "lint": "eslint \"**/*.js\"",
     "test": "npm run lint"
   },
   "repository": {
