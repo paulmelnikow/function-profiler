@@ -14,7 +14,7 @@ const profile = (fn, description) => {
   description = description || fn.name
 
   // Use `function` because we want `this` to be the caller's.
-  return function() {
+  return function () {
     const begin = performance.now()
 
     const result = fn.apply(this, arguments)
