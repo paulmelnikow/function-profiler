@@ -1,12 +1,12 @@
 # function-profiler
 
-[![version](https://img.shields.io/npm/v/function-profiler.svg?style=flat-square)][npm]
-[![license](https://img.shields.io/npm/l/function-profiler.svg?style=flat-square)][npm]
-[![build](https://img.shields.io/circleci/project/github/paulmelnikow/function-profiler.svg?style=flat-square)][build]
-[![code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)][prettier]
+[![version](https://img.shields.io/npm/v/function-profiler?style=flat-square)][npm]
+[![license](https://img.shields.io/npm/l/function-profiler?style=flat-square)][npm]
+[![build](https://img.shields.io/circleci/project/github/paulmelnikow/function-profiler/main?style=flat-square)][build]
+[![code style](https://img.shields.io/badge/code_style-prettier-ff69b4?style=flat-square)][prettier]
 
 [npm]: https://npmjs.com/function-profiler
-[build]: https://circleci.com/gh/paulmelnikow/function-profiler/tree/master
+[build]: https://circleci.com/gh/paulmelnikow/function-profiler/tree/main
 [prettier]: https://prettier.io/
 
 Profile a function. Print the elapsed time to the console.
