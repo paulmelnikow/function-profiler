@@ -5,7 +5,7 @@
     "profile",
     "browser"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "function-profiler.js",
   "types": "types/index.d.ts",
