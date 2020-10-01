@@ -8,12 +8,17 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "function-profiler.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "lint": "eslint \"**/*.js\"",
-    "prettier": "prettier --write \"**/*.@(js|md|yml)\"",
-    "prettier-check": "prettier-check \"**/*.@(js|md|yml)\"",
-    "test": "npm run lint && npm run prettier-check"
+    "lint:ts": "tsd",
+    "prettier": "prettier --write \"**/*.@(js|ts|md|json|yml)\"",
+    "prettier:check": "prettier --check \"**/*.@(js|ts|md|json|yml)\"",
+    "test": "npm run lint && npm run lint:ts && npm run prettier:check"
   },
+  "files": [
+    "types/index.d.ts"
+  ],
   "repository": "paulmelnikow/function-profiler",
   "devDependencies": {
     "eslint": "^7.6.0",
@@ -25,6 +30,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "prettier": "^2.0.5",
-    "prettier-check": "^2.0.0"
+    "tsd": "^0.13.1",
+    "typescript": "^4.0.3"
   }
 }

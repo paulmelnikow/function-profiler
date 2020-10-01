@@ -1,0 +1,8 @@
+{
+  "extends": "dtslint/dtslint.json",
+  "rules": {
+    "semicolon": false,
+    "space-before-function-paren": false,
+    "ban-types": false
+  }
+}
